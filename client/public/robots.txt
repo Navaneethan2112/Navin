@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard
+Disallow: /settings
+Disallow: /admin
+
+# Important pages for crawling
+Allow: /
+Allow: /policies
+
+Sitemap: https://aaraconnect.com/sitemap.xml
+
+# Crawl-delay for bots
+Crawl-delay: 1
